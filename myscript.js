@@ -149,5 +149,6 @@ $(document).ready(function() {
     // $("#places").append(displayResult);
     // steps above equal 
     $("#places").append(locations[i].display());
+    // calling display function through array 
   }
 });
